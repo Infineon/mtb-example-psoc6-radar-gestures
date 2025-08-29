@@ -11,7 +11,7 @@ Powered by the [XENSIV&trade; 60-GHz radar](https://www.infineon.com/cms/en/prod
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-psoc6-radar-gestures)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzgyNTciLCJTcGVjIE51bWJlciI6IjAwMi0zODI1NyIsIkRvYyBUaXRsZSI6IlBTb0MmdHJhZGU7IDYgTUNVOiBHZXN0dXJlcyBEZXRlY3Rpb24gd2l0aCBYRU5TSVYmdHJhZGU7IDYwLUdIeiBSYWRhciIsInJpZCI6InVzbWFubXVoIiwiRG9jIHZlcnNpb24iOiIwLjUuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJTQlNZUyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzgyNTciLCJTcGVjIE51bWJlciI6IjAwMi0zODI1NyIsIkRvYyBUaXRsZSI6IlBTb0MmdHJhZGU7IDYgTUNVOiBHZXN0dXJlcyBEZXRlY3Rpb24gd2l0aCBYRU5TSVYmdHJhZGU7IDYwLUdIeiBSYWRhciIsInJpZCI6InVzbWFubXVoIiwiRG9jIHZlcnNpb24iOiIxLjEuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJTQlNZUyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
 
 
 ## Requirements
@@ -367,7 +367,7 @@ API function | Description
  Resource  |  Alias/object     |    Purpose
  :-------- | :-------------    | :------------
  UART (HAL)|cy_retarget_io_uart_obj| UART HAL object used by Retarget-IO for the Debug UART port.
- SPI (HAL)    | spi     | SPI master driver to communicate with radar sensor.
+ SPI (HAL)    | spi     | SPI driver to communicate with radar sensor.
  GPIO (HAL)    | CYBSP_USER_LED     | Indicates that the program is working properly.
  GPIO (HAL)    | LED_RGB_RED     | Indicates that a new gesture has been recognized.
  GPIO (HAL)    | LED_RGB_GREEN    | Indicates that there is no gesture recognized.
@@ -407,6 +407,8 @@ Document title: *CE238257* – *PSoC&trade; 6 MCU : Gestures Detection with XENS
  Version | Description of change
  ------- | ---------------------
  0.5.0   | New code example
+ 1.0.0   | Updated to ModusToolbox version 3.5
+ 1.1.0   | Updated ModusToolbox ignore paramters
 <br>
 
 

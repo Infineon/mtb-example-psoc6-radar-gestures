@@ -25,7 +25,7 @@
  */
 
 #include <stdlib.h>
-
+#include <string.h>
 #include "cy_retarget_io.h"
 
 #include "FreeRTOS.h"
